@@ -1,0 +1,44 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=GPS Surveyor
+qgisMinimumVersion=2.0
+description=This plugin collects RTK GPS survey data
+version=0.4
+author=Nick Waber
+email=nwaber@gmail.com
+
+about=This plugin is designed to articulate QGIS with an RTK GPS unit outputting live NMEA data. It collects XYZ coordinate data, and allows point type classification, as well as indicating the GPS fix for any given point (1="GPS", 4="RTK" 5="Float RTK". This plugin was specifically designed for archaeological data collection using a Raspberry Pi 2 field computer linked to a Piksi GPS. Plugin development funded by Sts'ailes. www.stsailes.com
+
+tracker=placeholder
+repository=placeholder
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=The changelog lists the plugin versions
+    and their changes as in the example below:
+    0.4 - Easy save button added (also save on "OK")
+    0.3 - File save dialog added (save on "OK")
+    0.2 - Satellites Used column added
+    0.1 - First testing release
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<plugins>
+    <pyqgis_plugin name="GPS Surveyor" version="0.4">
+        <description>This plugin collects GPS data</description>
+        <homepage>placeholder</homepage>
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+        <file_name>GpsSurveyor.zip</file_name>
+        <author_name>Nick Waber</author_name>
+      	<download_url>https://cp.sync.com/dl/9d0a5a7c0#22zjz2g8-mkb7vnfx-d3kkcms9-tp93az5z</download_url>
+    </pyqgis_plugin>
+</plugins>
