@@ -1,33 +1,21 @@
-Plugin Builder Results
+--------------GPS Surveyor Plugin---------------------
+2017/07/03
 
-Your plugin GpsSurveyor was created in:
-    C:\Users\Nick\.qgis2\python\plugins\GpsSurveyor
+This Plugin was designed to collect GPS data during archaeological survey.
 
-Your QGIS plugin directory is located at:
-    C:/Users/Nick/.qgis2/python/plugins
+The plugin depends on NMEA format GPS input.  It was initially designed for use with the gen1 Piksi RTK GPS (www.swiftnav.com), but will work with any GPS capable of sending NMEA data.
 
-What's Next:
 
-  * Copy the entire directory containing your new plugin to the QGIS plugin
-    directory
+How to use:
+1) Connect to a GPS using the GPS Information panel.
+	-The GPS must be transmitting in NMEA format.
+	-If using a Garmin GPS on Windows, use GPSGate as an intermediary between the GPS and computer.
+	-GPS must transmit at BAUD 9600
+2) Click the GPS Surveyor plugin icon to activate the plugin.
+3) Select a point type from the pulldown menu.
+4) Start surveying.
+5) Don't forget to save!  The file is saved in memory until you actually create a file and click "save".
 
-  * Compile the resources file using pyrcc4
 
-  * Run the tests (``make test``)
-
-  * Test the plugin by enabling it in the QGIS plugin manager
-
-  * Customize it by editing the implementation file: ``gps_surveyor.py``
-
-  * Create your own custom icon, replacing the default icon.png
-
-  * Modify your user interface by opening GpsSurveyor.ui in Qt Designer
-
-  * You can use the Makefile to compile your Ui and resource files when
-    you make changes. This requires GNU make (gmake)
-
-For more information, see the PyQGIS Developer Cookbook at:
-http://www.qgis.org/pyqgis-cookbook/index.html
-
-(C) 2011-2014 GeoApt LLC - geoapt.com
-Git revision : $Format:%H$
+The point type pulldown menu may be edited to reflect different survey goals.
+Simply edit line 384 to add/change/remove items from the combo box.   ...I think...
