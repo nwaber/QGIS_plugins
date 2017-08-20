@@ -6,6 +6,6 @@
         <qgis_minimum_version>2.0</qgis_minimum_version>
         <file_name>GpsSurveyor.zip</file_name>
         <author_name>Nick Waber</author_name>
-      	<download_url>https://github.com/nwaber/GPS-Surveyor/blob/master/GpsSurveyor.zip?raw=true</download_url>
+      	<download_url>https://raw.githubusercontent.com/nwaber/GPS-Surveyor/master/GpsSurveyor.zip</download_url>
     </pyqgis_plugin>
 </plugins>
