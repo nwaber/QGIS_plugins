@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/LithicEdgeWear" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
